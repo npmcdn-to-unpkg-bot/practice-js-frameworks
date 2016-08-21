@@ -1,0 +1,31 @@
+<!doctype html>
+<title>ToDoアプリケーション</title>
+<script src="js/mithril.min.js"></script>
+<script>
+  var todo = {};
+  todo.Todo = (data) => {
+    this.description = m.prop(data.description);
+    this.done = m.prop(false);
+  };
+  todo.TodoList = Array;
+
+  todo.vm = {
+    init: () => {
+      //アクティブなToDoのリスト
+      todo.vm.list = new todo.TodoList();
+
+      //新しいToDoを作成する前の、入力中のToDoの名前を保持するスロット
+      todo.vm.description = m.prop('');
+
+      //ToDoをリストに登録し、ユーザが使いやすいようにdescriptionフィールドをクリアする
+      todo.vm.add = (description) => {
+        if (description()) {
+          todo.vm.list.push(new todo.Todo({
+            description: description()
+          }));
+          todo.vm.description("");
+        }
+      };
+    }
+  };
+</script>
