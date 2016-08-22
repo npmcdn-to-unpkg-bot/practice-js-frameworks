@@ -42,4 +42,27 @@
   todo.vm.description("コードを書く");
   todo.vm.add(todo.vm.description);
   todo.vm.list.length; //1
+
+  todo.controller = () => {
+    todo.vm.init()
+  }
+
+  todo.view = () => {
+    return m("html", [
+      m("body", [
+        m("input"),
+        m("button", "追加"),
+        m("table", [
+          m("tr", [
+            m("td", [
+              m("input[type=checkbox]")
+            ]),
+            m("td", "タスクの説明"),
+          ])
+        ])
+      ])
+    ]);
+  };
+
+  m.render(document, todo.view());
 </script>
