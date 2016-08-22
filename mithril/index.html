@@ -28,4 +28,18 @@
       };
     }
   };
+
+  //ビュー・モデルの初期化
+  todo.vm.init();
+
+  todo.vm.description(); //[空文字列]
+
+  //Todoを登録してみる
+  todo.vm.add(todo.vm.description);
+  todo.vm.list.length; //空のdescriptionは登録できないので、0
+
+  //正しく登録できた
+  todo.vm.description("コードを書く");
+  todo.vm.add(todo.vm.description);
+  todo.vm.list.length; //1
 </script>
