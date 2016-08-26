@@ -9,3 +9,20 @@ http://mithril-ja.js.org/
 http://backbonejs.org/
 
 > Backbone.js gives structure to web applications by providing models with key-value binding and custom events, collections with a rich API of enumerable functions, views with declarative event handling, and connects it all to your existing API over a RESTful JSON interface.
+
+## Riot
+http://riotjs.com/ja/
+
+> フロントエンドの世界には、ライブラリが溢れてはいるものの、正直なところソリューションはまだ「そこにない」と感じています。私たちは、この大きなパズルを解くために、Riotという最良のバランスを見つけました。Reactが果たしかけたに見えたものの、重大な弱点を残している点、それをRiotは解決します。
+>
+> だから——私たちには新しいライブラリが必要なのです。
+
+## React
+https://facebook.github.io/react/
+
+> React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
+
+## Vue.js
+https://jp.vuejs.org/
+
+> モダンな Web インターフェース向けのリアクティブコンポーネント
