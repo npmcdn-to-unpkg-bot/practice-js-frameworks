@@ -26,3 +26,8 @@ https://facebook.github.io/react/
 https://jp.vuejs.org/
 
 > モダンな Web インターフェース向けのリアクティブコンポーネント
+
+## Ember.js
+http://emberjs.com/
+
+> Ember makes Handlebars templates even better, by ensuring your HTML stays up-to-date when the underlying model changes. To get started, you don't even need to write any JavaScript.
