@@ -37,3 +37,8 @@ https://jp.vuejs.org/
 http://emberjs.com/
 
 > Ember makes Handlebars templates even better, by ensuring your HTML stays up-to-date when the underlying model changes. To get started, you don't even need to write any JavaScript.
+
+## Redux
+https://reduxframework.com/
+
+> Redux is a simple, truly extensible options framework for WordPress themes and plugins.
