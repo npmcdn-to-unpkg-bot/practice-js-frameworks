@@ -1,5 +1,11 @@
 # JavaScript フレームワーク 練習用
 
+## Angular (Angular 2)
+https://angular.io/
+
+> One framework.
+> Mobile and desktop.
+
 ## Mithril
 http://mithril-ja.js.org/
 
