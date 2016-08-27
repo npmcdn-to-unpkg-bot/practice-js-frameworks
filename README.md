@@ -43,6 +43,11 @@ http://aurelia.io/
 
 > Aurelia is a JavaScript client framework for mobile, desktop and web leveraging simple conventions and empowering creativity.
 
+## Knockout.js
+http://knockoutjs.com/
+
+> Knockout は リッチでレスポンシブなUIデザインの開発を助け、比較的大規模な開発であっても簡潔なデータモデルを保つことができる JavaScript ライブラリです。 ユーザの操作による状況の変化や、外部データソースの変更などにより動的に変更されるUIを作る際に、Knockout はよりシンプルかつ保守しやすいように実装する手助けとなります。
+
 ## Redux
 https://reduxframework.com/
 
