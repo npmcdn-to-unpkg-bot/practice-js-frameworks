@@ -38,6 +38,11 @@ http://emberjs.com/
 
 > Ember makes Handlebars templates even better, by ensuring your HTML stays up-to-date when the underlying model changes. To get started, you don't even need to write any JavaScript.
 
+## Aurelia
+http://aurelia.io/
+
+> Aurelia is a JavaScript client framework for mobile, desktop and web leveraging simple conventions and empowering creativity.
+
 ## Redux
 https://reduxframework.com/
 
